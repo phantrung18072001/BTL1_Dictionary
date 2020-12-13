@@ -1,0 +1,20 @@
+.sound {
+}
+.search{
+    -fx-background-radius: 4px;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4px 4px 4px 4px;
+}
+.text_search{
+    -fx-border-color: #e5e9ec;
+    -fx-background-color: white;
+    -fx-background-radius: 4px;
+    -fx-border-width: 1px;
+    -fx-border-radius: 4px 4px 4px 4px;
+}
+.save{
+    -fx-background-color: blue;
+    -fx-text-fill: white;
+    -fx-font-size: 15;
+    -fx-font-family: -apple-system;
+}

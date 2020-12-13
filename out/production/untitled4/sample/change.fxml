@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="348.0" prefWidth="389.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Change">
+   <children>
+      <TextField fx:id="updateWord" layoutX="40.0" layoutY="83.0" prefHeight="31.0" prefWidth="180.0" promptText="Old Word...">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+      <TextField fx:id="updateExplain" layoutX="40.0" layoutY="143.0" prefHeight="31.0" prefWidth="180.0" promptText="New Explain...">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+      <Label layoutX="40.0" layoutY="62.0" text="Word">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="41.0" layoutY="120.0" text="Update Explain">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Button fx:id="update" layoutX="285.0" layoutY="294.0" mnemonicParsing="false" onAction="#setUpdateWord" prefHeight="25.0" prefWidth="63.0" styleClass="save" stylesheets="@View.css" text="Save" textFill="#f5efef">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <TextArea fx:id="notification" layoutX="40.0" layoutY="280.0" prefHeight="48.0" prefWidth="180.0">
+         <font>
+            <Font size="20.0" />
+         </font></TextArea>
+      <Label layoutX="41.0" layoutY="244.0" text="Notification">
+         <font>
+            <Font size="17.0" />
+         </font></Label>
+      <Label layoutX="40.0" layoutY="184.0" text="Update Word">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <TextField fx:id="newUpdateWord" layoutX="40.0" layoutY="205.0" prefHeight="31.0" prefWidth="180.0" promptText="New Word...">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+      <Label layoutX="121.0" layoutY="14.0" prefHeight="48.0" prefWidth="167.0" text="Update Word">
+         <font>
+            <Font name="SansSerif Bold" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
